@@ -1,13 +1,12 @@
 <script setup>
-import TheHeader from './components/TheHeader.vue';
+import vLayout from './components/vLayout.vue'
 
 </script>
 
 <template>
-  <TheHeader />
-  <div class="container">
-    <h1>Dummy Blog</h1>
-  </div>
+  <vLayout>
+    <router-view />
+  </vLayout>
 </template>
 
 <style scoped lang="scss">
